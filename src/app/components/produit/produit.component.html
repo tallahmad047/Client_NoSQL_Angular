@@ -1,0 +1,15 @@
+<p>produit works!</p>
+<div class="container ">
+  <div class="card ">
+    <div *ngFor="let produit of produit" class="row">
+      <div class="col-md-6">
+         <!--<div>{{produit._id}}</div>-->
+      <img src={{produit.images}} alt/>
+      <div>{{produit.productName}}</div>
+      <div>{{produit.price}}</div>
+      <div>{{produit.remise}}</div>
+      </div>
+     
+    </div>
+  </div>
+</div>
